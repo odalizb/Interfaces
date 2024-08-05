@@ -1,18 +1,14 @@
-import Header from './componentes/Header';
-import Sidebar from './componentes/Sidebar';
-import Footer from './componentes/Footer';
-import Nav from './componentes/Nav';
+import React from 'react';
 import './App.css';
+import ListaTareas from './componentes/ListaTareas';
 
 function App() {
   return (
-    <div className="aplicacion-tareas">
-      <Header />   
-      <Nav/> 
-      <div className='main-content'>
-        <Sidebar />
+    <div className='aplicacion-tareas'>
+      <div className='tareas-lista-principal'>
+        <h1>Lista de Tareas</h1>
+        <ListaTareas />
       </div>
-      <Footer/>
     </div>
   );
 }

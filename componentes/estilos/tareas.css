@@ -1,0 +1,41 @@
+.tarea-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+  
+.tarea-texto {
+    cursor: pointer;
+    flex-grow: 1;
+    padding: 0 10px;
+}
+  
+.tarea-icono {
+    cursor: pointer;
+    color: #d32f2f;
+}
+  
+.tarea-contenedor.completada .tarea-texto {
+    text-decoration: line-through;
+    color: #a9a9a9;
+}
+  
+.tarea-contenedor:nth-child(3n + 1) {
+    background-color: #1b1b32;
+}
+  
+.tarea-contenedor:nth-child(3n + 2) {
+    background-color: #2a2a40;
+}
+  
+.tarea-contenedor:nth-child(3n + 3) {
+    background-color: #3b3b4f;
+}
+  
+  
+  

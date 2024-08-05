@@ -1,85 +1,20 @@
-.App {
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
-
-header {
-  background-color: #8c919784;
-  padding: 20px;
-  color: rgb(22, 17, 56);
-  text-align: center;
-}
-
-.logo-epn {
-  width: 160px;
-  height: 160px;
-  margin: 10px;
+.aplicacion-tareas {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: top;
-
+  height: 100vh;
+  background-color: #282c34;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin-left: 300px;
+.tareas-lista-principal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
 }
 
-nav ul li {
-  display: inline;
-  margin-left: 100px;
+.tareas-lista-principal h1 {
   text-align: center;
-
+  margin-bottom: 20px;
 }
-
-.main-content {
-  display: flex;
-  
-}
-
-aside {
-  width: 20%;
-  background-color: #f1f1f1;
-  padding: 15px;
-}
-
-.content {
-  width: 75%;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Listas de Tareas */
-.lista-tareas {
-  display: flex;
-  width: 60%;
-  background: linear-gradient(135deg, #9198e563, #0513a484, #082fa4, #272e4b);
-  padding: 25px;
-  margin-left: 300px;
-  margin-right: 300px;
-  border: 1px solid rgb(79, 90, 171);
-  border-radius: 30px;
-  text-align: auto;
-  align-content: center;
-}
-
-/* Estilo del titulo */
-h1 {
-  color: #1b1b32;
-  font-size: 25px;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  margin: 20px 0;
-}
-
-footer {
-  background-color: #8c919784;
-  color: rgb(22, 17, 56);
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-} 
-    
